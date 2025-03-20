@@ -1,0 +1,66 @@
+header {
+    background-color: #0b0014;
+    color: white;
+}
+
+footer {
+    background-color: #9c0d38;
+    color: white;
+}
+
+.presentation_autor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.presentation_informations {
+    width: 50%;
+    margin: 10px;
+}
+
+#profil_picture {
+    height: 200px;
+    border-radius: 20px;
+
+}
+
+.projects_presentation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin: 5px;
+
+}
+
+.project_presentation_title {
+    grid-column-start:1;
+    grid-column-end:7;
+    border: solid 1px;
+    text-align: center;
+}
+
+.projects_front-end,
+.projects_back-end {
+    text-align: center;
+}
+
+.projects_front-end{
+    grid-column-start: 1;
+    grid-column-end: 4;    
+}
+.projects_back-end {
+    grid-column-start:4;
+    grid-column-end: 7;
+}
+
+.background_color_changer{
+    height: 200px;
+    border: solid 3px;
+    border-radius: 50px;
+}
+.background_color_changer_button {
+    border-radius: 5px;
+    background-color: #a0f1e4;
+}
