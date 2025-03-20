@@ -1,62 +1,61 @@
 header {
-    background-color: #0b0014;
+    background-color: #FFF75D;
     color: white;
 }
 
 footer {
-    background-color: #9c0d38;
+    background-color: #A10100;
     color: white;
-    position: fixed;
     bottom: 0px;
     left: 0px;
     right: 0px;
 }
 
+a {
+    text-decoration: none !important;
+    color: #202528 !important;
+}
+
+.home_icon {
+    height: 10%;
+}
 .presentation_autor {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #FFC11F;
 }
-
 .presentation_informations {
     width: 50%;
     margin: 10px;
 }
-
 #profil_picture {
     height: 200px;
     border-radius: 20px;
 
 }
 
-.projects_presentation {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 5px;
-    margin: 5px;
-
+.finished_project_section {
+    background-color: #FE650D;
+}
+.ongoing_project_section {
+    background-color:#F33C04 ;
+}
+.planned_project_section {
+    background-color:#DA1F05 ;
 }
 
-.project_presentation_title {
-    grid-column-start:1;
-    grid-column-end:7;
-    border: solid 1px;
+.finished_project_presentation_title,
+.ongoing_project_presentation_title,
+.planned_project_presentation_title {
     text-align: center;
 }
-
-.projects_front-end,
-.projects_back-end {
+.finished_project_presentation,
+.ongoing_project_presentation,
+.planned_project_presentation {
     text-align: center;
-}
-
-.projects_front-end{
-    grid-column-start: 1;
-    grid-column-end: 4;    
-}
-.projects_back-end {
-    grid-column-start:4;
-    grid-column-end: 7;
+    display: flex;
+    justify-content: space-around;
 }
 
 .background_color_changer{
