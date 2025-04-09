@@ -19,12 +19,16 @@ a {
 .home_icon {
     height: 10%;
 }
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 /* css de la page d'accueuil */
 .presentation_autor {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #FFC11F;
 }
@@ -69,9 +73,18 @@ a {
  #main_color_changer {
     position: relative;
     min-height: 100vh;
-
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+#section_letter_counter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#input{
+    width: 75%;
 }
 
