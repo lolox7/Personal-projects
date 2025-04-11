@@ -1,4 +1,10 @@
 /* commun à toutes les pages */
+main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 header {
     background-color: #FFF75D;
     color:rgb(255, 255, 255)
@@ -7,6 +13,7 @@ header {
 
 footer {
     background-color: #A10100;
+    width: 100%;
     color: white;
     height: 25px;
 }
