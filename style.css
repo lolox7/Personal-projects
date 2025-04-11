@@ -1,14 +1,14 @@
+/* commun à toutes les pages */
 header {
     background-color: #FFF75D;
     color:rgb(255, 255, 255)
+
 }
 
 footer {
     background-color: #A10100;
     color: white;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+    height: 25px;
 }
 
 a {
@@ -19,9 +19,16 @@ a {
 .home_icon {
     height: 10%;
 }
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* css de la page d'accueuil */
 .presentation_autor {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #FFC11F;
 }
@@ -43,6 +50,10 @@ a {
 }
 .planned_project_section {
     background-color:#DA1F05 ;
+    padding-bottom: 25px;
+    position: relative;
+    min-height: 100vh;
+
 }
 
 .finished_project_presentation_title,
@@ -58,12 +69,22 @@ a {
     justify-content: space-around;
 }
 
-.background_color_changer{
-    height: 200px;
-    border: solid 3px;
-    border-radius: 50px;
+/* css de la page background color changer */
+ #main_color_changer {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
-.background_color_changer_button {
-    border-radius: 5px;
-    background-color: #a0f1e4;
+
+#section_letter_counter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
+#input{
+    width: 75%;
+}
+

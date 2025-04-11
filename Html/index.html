@@ -4,7 +4,7 @@
     <!-- ajoute le titre de l'onglet -->
     <title>Accueil</title>
     <!-- ajoute le lien a la page de css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <!-- sert a avoir un meilleur comportement en responsive sur les pages mobiles -->
     <meta name="viewport">
     <!-- inclusion de bootstrap partie css -->
@@ -14,8 +14,14 @@
 
 <body>
     <header>
-    <a href="index.html"><img class="home_icon" src="Images/Icones/accueil.png" alt="icone d'accueil" ></a>
+    <a href="index.html"><img class="home_icon" src="/Images/Icones/accueil.png" alt="icone d'accueil" ></a>
     </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="test_zone.html">Zone de test</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
     <main>
 
         <section class="presentation_autor">
@@ -26,7 +32,7 @@
                 Sur ce site vous retrouverez des projets développés <em>from scratch</em> par la force de curiosité et volonté de création !
                 </p>
             </div>
-            <img src="Images/profil_picture.JPG" alt="photo de profil de l'auteur" id="profil_picture">
+            <img src="/Images/profil_picture.JPG" alt="photo de profil de l'auteur" id="profil_picture">
             </section>
 
         <section class="finished_project_section">
@@ -34,20 +40,20 @@
             <div class="finished_project_presentation">
                 <div>
                     <h3>Coté Front-end</h3>
-                    <p>Rien de ce coté pour l'instant...</p>
+                    <a href="background_color_changer.html"><img src="/Images/Carrousel/color_changer.png" alt="capture d'ecran de la p xww"></a> <br>
+                    <a href="letter_counter.html">letter counter</a>
                 </div>
                 <div>        
                     <h3>Coté Back-end</h3>
-                <p>Rien ici non plus...</p>
+                    <p>Rien ici non plus...</p>
                 </div>
             </div>
         </section>
         <section class="ongoing_project_section">
             <h2 class="ongoing_project_presentation_title">Mes projets en cours</h2>
-                <div class="ongoing_project_presentation">
-                    <div class="projects_front-end">
-                        <h3>Coté Front-end</h3>
-                        <a href="background_color_changer.html">Changeur de couleur de fond d'ecran aleatoire </a>
+            <div class="ongoing_project_presentation">
+                <div class="projects_front-end">
+                    <h3>Coté Front-end</h3>
                     </div>
                     <div class="projects_back-end">    
                         <h3>Coté Back-end</h3>
@@ -61,13 +67,15 @@
                 <div>
                     <h3>Coté Front-end</h3>
                     <p>        
-                        letter counter  <br>
+                        password verficator <br>
                         to do list<br>
-                        counter<br>
                         analog clock<br>
                         image slider<br>
                         calculator<br>
-                        2d pong
+                        2d pong <br>
+                        boite a outils financiers (finary) avec<br>
+                        calculettes d'investissement <br>
+                        <!-- https://www.gerezmieuxvotreargent.ca/ressources-financieres/ -->
                     </p>
                 </div>
                 <div>        
