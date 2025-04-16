@@ -63,17 +63,26 @@ nav {
 
 }
 
-.finished_project_presentation_title,
+ .finished_project_presentation_title,
 .ongoing_project_presentation_title,
 .planned_project_presentation_title {
     text-align: center;
+    padding: 20px;
 }
+
 .finished_project_presentation,
 .ongoing_project_presentation,
 .planned_project_presentation {
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align:center;
+    padding: 20px;
+} 
+#monCarousel {
+    border-radius: 20px;
+}
+.carousel-item img {
+    border-radius: 20px;
 }
 
 /* css de la page background color changer */
@@ -94,4 +103,13 @@ nav {
 #input{
     width: 75%;
 }
+
+/*Css de la page letter counter*/
+#section_letter_counter{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* css de la zone de test */
 
